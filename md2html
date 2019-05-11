@@ -1,0 +1,9 @@
+echo -e '
+<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton-framework/1.1.1/skeleton.min.css">
+<script type="text/javascript">
+ window.onload=function(){document.title=document.getElementsByTagName("h1")[0].innerText;}
+</script></head>\n<body>\n
+$main
+\n</body>\n</html>'\
+ | env main="`markdown $1`" envsubst
