@@ -1,6 +1,6 @@
 # NAME
 
-bash script for md2html extending existing `markdown` command.
+md2html bash script extending `markdown` command.
 
 # SYNOPSIS
 
@@ -11,6 +11,8 @@ bash script for md2html extending existing `markdown` command.
 
 - [markdown](https://manpages.debian.org/stretch/markdown/markdown.1.en.html)
 - [envsubst (in gettext)](https://manpages.debian.org/jessie-backports/gettext-base/envsubst.1.en.html)
+
+`sudo apt install markdown gettext` to install them.
 
 # INSTALL
 
