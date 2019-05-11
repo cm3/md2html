@@ -14,7 +14,7 @@ bash script for md2html extending existing `markdown` command.
 
 # INSTALL
 
-Simply download `md2html` and put it on your $PATH.
+Simply download `md2html` and put it on your $PATH, and execute `chmod 755 md2html` to make it executable.
 
 # CUSTOMISE
 
